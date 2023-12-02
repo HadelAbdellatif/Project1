@@ -1,0 +1,23 @@
+/* font-family: 'Heebo', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
+
+/* font-family: 'Cormorant', serif;
+ */
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300;1,300&family=Heebo&display=swap');
+
+/* main color */
+:root{
+    --main-color: #ff734d;
+}
+
+.bg-main-color{
+    background-color: var(--main-color);
+}
+
+.text-main-color{
+    color: var(--main-color);
+}
+
+.border-main-color{
+    border-color: var(--main-color)  !important;
+}

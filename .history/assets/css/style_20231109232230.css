@@ -1,0 +1,100 @@
+/* font-family: 'Heebo', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
+
+/* font-family: 'Cormorant', serif; */
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300;1,300&family=Heebo&display=swap');
+
+/* font-family: 'Cormorant', serif; */
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300;1,300&family=Qwitcher+Grypen&display=swap');
+
+/* main color */
+:root{
+    --main-color: #241c10;
+}
+
+.bg-main-color{
+    background-color: #988779;
+}
+
+.text-main-color{
+    color: var(--main-color);
+}
+
+.border-main-color{
+    border-color: var(--main-color)  !important;
+}
+
+/* Start Navbar */
+
+.navbar{
+    font-family: 'Heebo', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 22px;
+    color: var(--main-color);
+}
+
+.navbar .nav-link{
+    letter-spacing:0.2em;
+}
+
+.navbar i{
+    font-size: 13px;
+    border: 1px solid rgba(36,28,16,.3);
+    transition: 0.5s ease-in-out;
+    width: 30px;
+    height: 30px;
+}
+
+.navbar .nav-link:hover i{
+    border-color: var(--main-color);
+}
+
+
+/* End Navbar */
+
+/* Start header */
+
+header{
+    background-image: url('../img/h1-rev-img1-2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+/* End header */
+
+/* Start section 2 */
+
+.chocolate-ganache-section {
+    background-color: #FCF8ED;
+}
+
+.chocolate-ganache-section p{
+    font-family: 'Heebo', sans-serif; 
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 25px;
+    color: #988779;
+    letter-spacing: .2em;
+}
+
+.chocolate-ganache-section h2{
+    font-family: 'Cormorant', serif; 
+    font-weight: 300;
+    font-size: 67px;
+    line-height: 56px;
+    color: #241c10;
+    letter-spacing: .02em;
+}
+
+.chocolate-ganache-section span{
+    font-family: 'Cormorant', serif;
+    color: #333;
+    text-transform: capitalize;
+    font-size: 100px;
+    z-index: 0;
+    white-space: nowrap;
+}
+/* End section 2 */

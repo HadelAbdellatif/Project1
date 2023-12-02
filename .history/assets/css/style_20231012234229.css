@@ -1,0 +1,39 @@
+/* font-family: 'Heebo', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
+
+/* font-family: 'Cormorant', serif; */
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300;1,300&family=Heebo&display=swap');
+
+/* main color */
+:root{
+    --main-color: #241c10;
+}
+
+.bg-main-color{
+    background-color: #988779;
+}
+
+.text-main-color{
+    color: var(--main-color);
+}
+
+.border-main-color{
+    border-color: var(--main-color)  !important;
+}
+
+/* Start Navbar */
+
+.navbar{
+    font-family: 'Heebo', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 22px;
+    color: var(--main-color);
+    height: 140px;
+}
+
+.navbar img{
+    align-items: start !important;
+}
+
+/* End Navbar */
